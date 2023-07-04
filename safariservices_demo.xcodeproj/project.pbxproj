@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092341422A4EBD6700674B4C /* MiniWebBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092341412A4EBD6700674B4C /* MiniWebBrowserView.swift */; };
 		0982DAEF2A36D6B80077A38A /* safariservices_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DAEE2A36D6B80077A38A /* safariservices_demoApp.swift */; };
 		0982DAF12A36D6B80077A38A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DAF02A36D6B80077A38A /* ContentView.swift */; };
 		0982DAF32A36D6B90077A38A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0982DAF22A36D6B90077A38A /* Assets.xcassets */; };
 		0982DAF62A36D6B90077A38A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0982DAF52A36D6B90077A38A /* Preview Assets.xcassets */; };
+		0982DAFD2A36D9660077A38A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0982DAFC2A36D9660077A38A /* README.md */; };
+		0982DAFF2A36D9D60077A38A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0982DAFE2A36D9D60077A38A /* .gitignore */; };
+		0982DB042A36DAB30077A38A /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DB032A36DAB30077A38A /* SafariView.swift */; };
+		0982DB072A36DAF90077A38A /* SafariVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DB062A36DAF90077A38A /* SafariVM.swift */; };
+		0982DB0C2A404AC40077A38A /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DB0B2A404AC40077A38A /* PopoverView.swift */; };
+		0982DB0E2A41A4D70077A38A /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DB0D2A41A4D70077A38A /* SheetView.swift */; };
+		0982DB102A41ABA40077A38A /* FullscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982DB0F2A41ABA40077A38A /* FullscreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092341412A4EBD6700674B4C /* MiniWebBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWebBrowserView.swift; sourceTree = "<group>"; };
 		0982DAEB2A36D6B80077A38A /* safariservices_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = safariservices_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0982DAEE2A36D6B80077A38A /* safariservices_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safariservices_demoApp.swift; sourceTree = "<group>"; };
 		0982DAF02A36D6B80077A38A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0982DAF22A36D6B90077A38A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0982DAF52A36D6B90077A38A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0982DAFC2A36D9660077A38A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0982DAFE2A36D9D60077A38A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0982DB032A36DAB30077A38A /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		0982DB062A36DAF90077A38A /* SafariVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariVM.swift; sourceTree = "<group>"; };
+		0982DB0B2A404AC40077A38A /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		0982DB0D2A41A4D70077A38A /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		0982DB0F2A41ABA40077A38A /* FullscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,8 @@
 		0982DAE22A36D6B80077A38A = {
 			isa = PBXGroup;
 			children = (
+				0982DAFE2A36D9D60077A38A /* .gitignore */,
+				0982DAFC2A36D9660077A38A /* README.md */,
 				0982DAED2A36D6B80077A38A /* safariservices_demo */,
 				0982DAEC2A36D6B80077A38A /* Products */,
 			);
@@ -51,6 +69,9 @@
 		0982DAED2A36D6B80077A38A /* safariservices_demo */ = {
 			isa = PBXGroup;
 			children = (
+				0982DB082A37535A0077A38A /* Sub Views */,
+				0982DB052A36DAE60077A38A /* View Models */,
+				0982DB002A36DA160077A38A /* Safari Component */,
 				0982DAEE2A36D6B80077A38A /* safariservices_demoApp.swift */,
 				0982DAF02A36D6B80077A38A /* ContentView.swift */,
 				0982DAF22A36D6B90077A38A /* Assets.xcassets */,
@@ -65,6 +86,33 @@
 				0982DAF52A36D6B90077A38A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0982DB002A36DA160077A38A /* Safari Component */ = {
+			isa = PBXGroup;
+			children = (
+				0982DB032A36DAB30077A38A /* SafariView.swift */,
+			);
+			path = "Safari Component";
+			sourceTree = "<group>";
+		};
+		0982DB052A36DAE60077A38A /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0982DB062A36DAF90077A38A /* SafariVM.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		0982DB082A37535A0077A38A /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				0982DB0B2A404AC40077A38A /* PopoverView.swift */,
+				0982DB0D2A41A4D70077A38A /* SheetView.swift */,
+				0982DB0F2A41ABA40077A38A /* FullscreenView.swift */,
+				092341412A4EBD6700674B4C /* MiniWebBrowserView.swift */,
+			);
+			path = "Sub Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +173,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0982DAFF2A36D9D60077A38A /* .gitignore in Resources */,
+				0982DAFD2A36D9660077A38A /* README.md in Resources */,
 				0982DAF62A36D6B90077A38A /* Preview Assets.xcassets in Resources */,
 				0982DAF32A36D6B90077A38A /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0982DB042A36DAB30077A38A /* SafariView.swift in Sources */,
+				0982DB072A36DAF90077A38A /* SafariVM.swift in Sources */,
+				0982DB0C2A404AC40077A38A /* PopoverView.swift in Sources */,
 				0982DAF12A36D6B80077A38A /* ContentView.swift in Sources */,
+				0982DB0E2A41A4D70077A38A /* SheetView.swift in Sources */,
+				092341422A4EBD6700674B4C /* MiniWebBrowserView.swift in Sources */,
+				0982DB102A41ABA40077A38A /* FullscreenView.swift in Sources */,
 				0982DAEF2A36D6B80077A38A /* safariservices_demoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
